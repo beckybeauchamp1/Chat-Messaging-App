@@ -1,0 +1,22 @@
+{
+  "name": "chat-messaging-app",
+  "version": "1.0.0",
+  "description": "sample teach example socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckybeauchamp1/Chat-Messaging-App.git"
+  },
+  "author": "becky beauchamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beckybeauchamp1/Chat-Messaging-App/issues"
+  },
+  "homepage": "https://github.com/beckybeauchamp1/Chat-Messaging-App#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
