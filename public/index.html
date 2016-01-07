@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Chat Messaging App</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" type="text/css">
-  </head>
-  <body>
-    <ul class="messages"></ul>
-    <form action="">
-      <input id="msg" autocomplete="off" /><button>Send</button>
-    </form>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Chat Messaging App</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="script.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Raleway+Dots' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <h1>WDImessenger</h1>
+  <div class="name">
+    <h2>What's Your Name?</h2>
+    <input class="grabName" type="text" placeholder="name" name="name">
+    <button class="sendName">Send</button>
+  </div>
+  <ul class="messages"></ul>
+  <form class="message-form" action="">
+    <input id="msg" autocomplete="off" /><button class="send-button">Send</button>
+  </form>
+</body>
 </html>
